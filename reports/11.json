@@ -1,0 +1,202 @@
+[
+  {
+    "description": "  當啟動雙十一優惠活動時，訂單可享有同一種商品每 10 件 20% 折扣的優惠。",
+    "elements": [
+      {
+        "description": "",
+        "id": "雙十一優惠活動;購買-12-件同一種商品",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "購買 12 件同一種商品",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "雙十一優惠活動已啟動",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "訂單中有 12 件價格為 100 元的襪子",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "計算訂單總價",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "訂單總價應為 1000",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "雙十一優惠活動;購買-27-件同一種商品",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "購買 27 件同一種商品",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "雙十一優惠活動已啟動",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "訂單中有 27 件價格為 100 元的襪子",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "計算訂單總價",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "訂單總價應為 2300",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "雙十一優惠活動;購買-10-種不同商品各一件",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "購買 10 種不同商品各一件",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "雙十一優惠活動已啟動",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "訂單中有商品 A, B, C, D, E, F, G, H, I, J 各 1 件，且每件價格皆為 100 元",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "計算訂單總價",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "訂單總價應為 1000",
+            "match": {
+              "location": "features\\step_definitions\\11.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "雙十一優惠活動",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "雙十一優惠活動",
+    "tags": [],
+    "uri": "features\\11.feature"
+  }
+]
